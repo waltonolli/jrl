@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1207.04 162.38">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2f495e;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #95c0b1;
+      }
+
+      .cls-4 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-5 {
+        fill: #a0cbef;
+      }
+
+      .cls-6 {
+        clip-path: url(#clippath-2);
+      }
+
+      .cls-7 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" y="2.81" width="1207.04" height="159.57"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" y="38.66" width="1207.04" height="123.72"/>
+    </clipPath>
+    <clipPath id="clippath-2">
+      <rect class="cls-2" width="1207.04" height="108.96"/>
+    </clipPath>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g>
+      <g class="cls-7">
+        <path class="cls-3" d="M1206.86,40.49v140.31H.18V3.57C41.14,3.89,152.53.25,291.43,19.61c30.87,4.3,61.19,9.48,90.97,15.53,1.33.27,2.66.54,3.98.8,629.56,127.41,814.73,2.31,820.35,4.35.1.05.15.12.13.19Z"/>
+      </g>
+      <g class="cls-4">
+        <path class="cls-1" d="M1206.86,76.21v104.59H.18V39.29c40.97.33,152.35-3.32,291.25,16.04,30.87,4.3,61.19,9.47,90.97,15.53,1.33.27,2.66.54,3.98.81,629.56,127.41,814.73,2.3,820.35,4.35.11.05.15.12.13.19Z"/>
+      </g>
+      <g class="cls-6">
+        <path class="cls-5" d="M1206.86,37.54v18.4c.02-.08-.02-.14-.13-.19-5.63-2.04-190.79,123.06-820.35-4.35-1.33-.27-2.66-.54-3.98-.8-29.77-6.05-60.1-11.23-90.97-15.53C152.53,15.7,41.14,19.35.18,19.02V.62c40.97.33,152.35-3.32,291.25,16.04,30.87,4.3,61.19,9.48,90.97,15.53,1.33.27,2.66.54,3.98.81,629.56,127.41,814.73,2.31,820.35,4.35.1.05.15.11.13.19Z"/>
+      </g>
+    </g>
+  </g>
+</svg>

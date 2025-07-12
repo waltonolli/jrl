@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Camada_2" data-name="Camada 2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1209 185">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #2f495e;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        clip-path: url(#clippath-1);
+      }
+
+      .cls-4 {
+        fill: #789ab1;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-2" y="21.99" width="1041" height="163.01"/>
+    </clipPath>
+    <clipPath id="clippath-1">
+      <rect class="cls-2" width="1209" height="110.2"/>
+    </clipPath>
+  </defs>
+  <g id="Camada_1-2" data-name="Camada 1">
+    <g class="cls-5">
+      <path class="cls-4" d="M1040.79,23.59c-14.37-.71-28.97-1.06-43.82-1.06-122.44,0-248.05,24.16-369.54,47.54-123.53,23.76-251.26,48.34-377.99,48.34C159.02,118.4,77.05,105.97,0,80.48v82.24C346.93,253.72,693.86,34.84,1040.79,23.59Z"/>
+    </g>
+    <g class="cls-3">
+      <path class="cls-1" d="M1209,37.86V-55.88H0v125c.33.12.67.23,1,.35,402.67,141.25,805.33-145.16,1208-31.61Z"/>
+    </g>
+  </g>
+</svg>
