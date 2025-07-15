@@ -14,16 +14,25 @@
     <body>
         <header>
             <a href="/" class="logo_link"><img src="./assets/logo.svg" alt="logo JRL" class="logo_img"></a>
-            <nav class="header_nav">
-                <ul>
-                    <li class="nav_item"><a href="/">Home</a></li>
-                    <li class="nav_item"><a href="#solucoes">Soluções</a></li>
-                    <li class="nav_item"><a href="#sobre">Sobre</a></li>
-                    <li class="nav_item"><a href="#planos">Planos</a></li>
-                    <li class="nav_item"><a href="#contato">Contato</a></li>
-                    <li class="nav_item nav_button"><a href="https://rh.inathu.app.br/login">Login</a></li>
-                </ul>
-            </nav>
+            <div id="menu">
+                <div id="menu-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="/">Home</a></li>
+                        <li><a href="#solucoes">Soluções</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#planos">Planos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                        <li class="login"><a href="https://rh.inathu.app.br/login">Login</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="menu-bg" id="menu-bg"></div>
+            
         </header>
 
         <!-- BANNER -->
@@ -101,9 +110,10 @@
         <section class="solucoes" id="solucoes">
             <div class="container_solucoes">
 
-                <img src="./assets/notebook.svg" alt="notebook preto com tela do sistema mtpi" class="solucoes_img">
+
 
                 <h2 class="solucoes_title">Soluções que transformam</h2>
+                <img src="./assets/notebook.svg" alt="notebook preto com tela do sistema mtpi" class="solucoes_img">
                 <div class="solucao_mtpi solucao_mtpi_um">
                     <h3 class="mtpi_title">MTPI</h3>
                     <h4>Metodologia de Triagem dos Potenciais Inatos</h4>
@@ -112,7 +122,7 @@
                     <ul>
                         <li>Vai além de rótulos.</li>
                         <li>Explica o porquê das ações humanas.</li>
-                        <li><span>100% Comprovado!</span> Perfis de acordo com a função.</li>
+                        <li><span class="realce">100% Comprovado!</span> Perfis de acordo com a função.</li>
                     </ul>
                 </div>
                 <p class="destaque">Potencial não se ensina, se identifica.</br>Contrate com base no que é natural.</p>
@@ -152,12 +162,12 @@
                         </div>
                       
                         <div class="mtpi_paragrafo">
-                            <p>Todo processo de seleção, gestão e liderança precisa estar alinhado com as pessoas. Contratação assertiva é aquela que conecta as funções com os potenciais inatos das pessoas.Gestão com foco no colaborador é aquela que trabalha através das habilidades naturais das pessoas. Liderança que motiva a equipe também sabe trabalhar com as inabilidades de cada um, fortalecendo as habilidades.</p>
+                            <p>Todo processo de seleção, gestão e liderança precisa estar alinhado com as pessoas. Contratação assertiva é aquela que conecta as funções com os potenciais inatos das pessoas. Gestão com foco no colaborador é aquela que trabalha através das habilidades naturais das pessoas. Liderança que motiva a equipe também sabe trabalhar com as inabilidades de cada um, fortalecendo as habilidades.</p>
                             <p>Um trabalho muito calmo será estressante para uma pessoa ativa, um trabalho que precisa de silêncio e concentração será desgastante para uma pessoa emocional. E um trabalho muito dinâmico será tortuoso para uma pessoa racional.</p>
                             <p>A MTPI - Metodologia de Triagem dos Potenciais Inatos revela a verdadeira natureza das pessoas, identificando de forma precisa os impulsos naturais que moldam o comportamento, os talentos e potenciais de cada indivíduo. Essa abordagem exclusiva, não apenas descreve o que uma pessoa faz de melhor, mas explica por que ela age de determinada forma, enriquecendo o trabalhando de Recursos Humanos, conectando a função às pessoas certas. </p>
                         </div>
                     </div>               
-                    <div class="box">
+                    <div class="box box_ativa">
                         <div  class="mtpi_paragrafo">
                             <p>A MTPI introduz a Inteligência Ativa, um conceito revolucionário e inédito no campo da compreensão humana. Essa inteligência é caracterizada pela energia, dinamismo e capacidade inata de ação, que direciona as pessoas dessa natureza para resultados rápidos e soluções práticas.</p>
                             <p>Entender e aplicar a Inteligência Ativa no contexto profissional tem ajudado empresas a alocar talentos em funções que maximizam a produtividade e a inovação.</p>
@@ -210,7 +220,7 @@
                         <div class="planos_topico">
                             <h3>Evolução</h3>
                             <ul>
-                                <li>Tudo em <span>Essência</span> +</li>
+                                <li>Tudo em <span>Essência</span> <span class="mais">+</span></li>
                                 <li>Programa Saúde Mental baseado na Natureza de cada colaborador.</li>
                                 <li>Mapa avançado do perfil dos colaboradores com informações do que motiva e desmotiva, e como fidelizar os colaboradores.</li>
                             </ul>
@@ -221,7 +231,7 @@
                         <div class="planos_topico">
                             <h3>Estratégico</h3>
                             <ul>
-                                <li>Tudo em <span>Evolução</span> +</li>
+                                <li>Tudo em <span>Evolução</span> <span class="mais">+</span></li>
                                 <li>Programa Saúde Mental avançado com certificação válido para 2 anos</li>
                                 <li>Mapa das Funções X GNIs (Grupos Naturais de Inteligências)</li>
                                 <li>Mapa dos colaboradores com informações essenciais de motivação, estresse e possível talentos.</li>
@@ -230,16 +240,17 @@
                         <div class="planos_topico">
                             <h3>Integrador</h3>
                             <ul>
-                                <li>Tudo em <span>Estratégico</span> +</li>
+                                <li>Tudo em <span>Estratégico</span> <span class="mais">+</span></li>
                                 <li>Jornada completa de treinamento para seleção, retenção e performance.</li>
                                 <li>informações de admissão e demissão com diferentes abordagens de acordo com a natureza de cada colaborador.</li>
-                                <li>Treinando treinadores: Programa de desenvolvimento de treinadores de funções técnicas/práticas ou específicas. <span>Pessoa certa no lugar certo.</span></li>
+                                <li>Treinando treinadores: Programa de desenvolvimento de treinadores de funções técnicas/práticas ou específicas.
+                                </br> <span>Pessoa certa no lugar certo.</span></li>
                             </ul>
                         </div>
                     </div>
                     
                 </div>
-                <h2>Solicitar orçamento:</h2>
+                <h2 id="contato">Entre em contato:</h2>
                 <div class="container_contato">
                     <form action="/pagina-para-processar-dados-do-form" class="planos_form">
                         <div class="container_form">
@@ -253,7 +264,7 @@
                             </div>
                             <div class="form_mensagem">
                                 <label for="subject">Mensagem</label>
-                                <textarea id="subject" name="subject" placeholder="Qual a sua dúvida?" style="height:200px"></textarea>
+                                <textarea id="subject" name="subject" placeholder="Escreva sua mensagem" style="height:200px"></textarea>
                                 <button type="submit">Solicitar Orçamento</button>
                             </div>
                             
@@ -307,5 +318,7 @@
             </div>
 
         </footer>
+
+        <script src="./javascript/main.js"></script>
     </body>
 </html>

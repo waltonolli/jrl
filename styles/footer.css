@@ -1,0 +1,96 @@
+.container_footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 100px 40px 0 40px;
+}
+
+.footer_contatos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_img_footer {
+    width: 50px;
+    padding-left: 10px;
+    fill: #fff;
+}
+
+.nav_footer ul {
+    display: flex;
+    padding: 0;
+}
+
+.nav_footer_item a {
+    text-decoration: none;
+    font-size: 0.8rem;
+    font-weight: 300;
+    padding: 10px;
+}
+
+.nav_footer_item a:visited {
+    color: inherit; 
+}
+
+.nav_footer_item a:hover {
+    color: #6E9CC2;
+}
+
+.footer_form_title {
+    font-weight: 400;
+    font-size: 0.8rem;
+}
+
+.footer_form_privacidade {
+    font-size: 0.7rem;
+    font-weight: 300;
+}
+
+.footer_form input {
+    border-radius: 0;
+    width: 220px;
+}
+
+.footer_form button {
+    border-radius: 0;
+}
+
+.final {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.final p {
+    font-size: 0.8rem;
+}
+
+.linha {
+    padding: 20px 0;
+    border-bottom: 1px solid var(--cor-fonte-principal);    
+}
+
+.privacidade a:visited{
+    color: #9CD4D6 !important;
+}
+
+.privacidade a:hover{
+    color: #9CD4D6 !important;
+}
+
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width: 992px){
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 480px){
+    .footer_contatos {
+        flex-direction: column;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,48 @@
+.planos_form {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: groove;
+}
+
+.planos_form input, textarea{
+    display: flex;
+    gap: 40px;
+}
+
+.planos_form textarea {
+    padding-top: 10px;
+    font-family: 'Epilogue';
+}
+
+.form_mensagem button {
+    background-color: #95C0B1;
+    color: var(--cor-fonte-principal);
+    font-size: 1.3rem;
+    width: 100%;
+}
+
+.container_form {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width: 992px){
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 480px){
+    .container_form {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,46 @@
+form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+form input, textarea {
+    height: 30px;
+    width: 300px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-style: inset;
+    border-radius: 5px;
+    padding-left: 10px;
+    font-size: 0.7rem;
+}
+
+
+form input:focus, textarea:focus {
+   outline-color: #6E9CC2;
+}
+
+form button {
+    padding: 5px 25px;
+    height: 34px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--cor-botao-login);
+    color: #FFF;
+    margin-top: 6px;
+    margin-bottom: 16px;
+}
+
+@media screen and (max-width: 1024px){
+}
+
+@media screen and (max-width: 992px){
+}
+
+@media screen and (max-width: 768px){
+}
+
+@media screen and (max-width: 480px){
+}
