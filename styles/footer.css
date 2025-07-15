@@ -3,6 +3,8 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 100px 40px 0 40px;
+    max-width: 1200px;
+    margin: auto;
 }
 
 .footer_contatos {
