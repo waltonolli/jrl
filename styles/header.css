@@ -145,6 +145,15 @@ header {
         justify-content: flex-start;
         text-align: left;
     }
+    .nav a:link {
+        color: white;
+    }
+
+    .nav a:active {
+        color: #C8E7E8 !important;
+        background-color: none;
+    }
+
 
     .login {
         padding-top: 20px;
@@ -160,7 +169,7 @@ header {
     }
 
     .login a:active {
-        background-color: #6E9CC2;
+        color: #6E9CC2 !important;
         width: 100%;
     }
 
