@@ -12,6 +12,5 @@ document.addEventListener('click', function(event) {
   if (!menu.contains(targetElement)) {
     menuOnClick()
     menu.classList.remove('ativo');
-    console.log('Menu fechado!');
   }
 });

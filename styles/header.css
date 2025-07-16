@@ -8,6 +8,20 @@ header {
     background-color: #E6F2FD;
 }
 
+.icones_redes_sociais{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-right: 20px;
+}
+
+.icones_redes_sociais a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .logo_link {
     display: flex;
     justify-content: center;
@@ -89,21 +103,12 @@ header {
         gap: 10px;
     }
 
-    .icones_redes_sociais{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding-right: 20px;
-    }
-
-    .icones_redes_sociais a {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .icones_redes_sociais {
+        display: none;
     }
 
     .logo_link {
-        padding-right: 20px;
+        padding-right: 30px;
     }
 
     #menu {
@@ -168,18 +173,13 @@ header {
         background-color: none;
     }
 
-
-    .login {
-        padding-top: 20px;
-    }
     .login a {
-        background-color: white;
-        text-align: center;
-        justify-content: center;
+        background-color: transparent;
+        font-weight: 700;
     }
 
     .login a:link {
-        color: #2F495E !important;
+        color: #FFCA42 !important;
     }
 
     .login a:active {
@@ -201,8 +201,8 @@ header {
         height: 0;
         margin: 30px 0 20px 20px;
         background: radial-gradient(circle, #2F495E, #2F495E);
-        border-radius: 5%;
-        transition: 0.3s ease;
+        border-radius: 100%;
+        transition: 0.2s ease;
     }
 
     .change {
