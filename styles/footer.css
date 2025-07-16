@@ -65,7 +65,7 @@
 }
 
 .final p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .linha {
@@ -91,8 +91,14 @@
 }
 
 @media screen and (max-width: 480px){
+
+    .container_footer {
+        padding: 0 10px;
+    }
+
     .footer_contatos {
         flex-direction: column;
         gap: 30px;
     }
+
 }
