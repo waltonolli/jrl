@@ -73,6 +73,7 @@
     .banner img {
         width: 100%;
         padding-bottom: 20px;
+        padding-top: 10px;
     }
     
     .banner_textos p {
