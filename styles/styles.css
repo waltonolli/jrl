@@ -9,6 +9,7 @@
 @import url(planos.css);
 @import url(contato.css);
 @import url(footer.css);
+@import url(buttons.css);
 
 :root {
     --cor-fonte-principal: #2f495e;
@@ -32,6 +33,12 @@ body {
     line-height: 1.6rem;
 }
 
+svg {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+
 a {
     text-decoration: none;
 }
@@ -42,13 +49,19 @@ h1 {
     font-weight: 600;
 }
 
-input {
-    font-family: 'Epilogue';
+.icone {
+    width: 15px;
 }
 
 .mais {
     font-size: 1.5rem;
 }
+
+.contato_title {
+    padding: 10px;
+}
+
+
 
 
 @media screen and (max-width: 1024px){

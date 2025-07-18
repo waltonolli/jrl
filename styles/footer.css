@@ -39,6 +39,15 @@
     color: #6E9CC2;
 }
 
+
+.box_contatos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.9rem;
+    gap: 10px;
+}
+
 .footer_form_title {
     font-weight: 400;
     font-size: 0.8rem;

@@ -14,7 +14,8 @@ form input, textarea {
     border-style: inset;
     border-radius: 5px;
     padding-left: 10px;
-    font-size: 0.7rem;
+    font-size: 0.9rem;
+    font-family: 'Epilogue';
 }
 
 
@@ -32,6 +33,13 @@ form button {
     margin-top: 6px;
     margin-bottom: 16px;
 }
+
+
+input:invalid {
+    border: 1px solid red;
+}
+
+
 
 @media screen and (max-width: 1024px){
 }

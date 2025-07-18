@@ -1,0 +1,60 @@
+/* BOTÕES SEÇÃO PLANOS */
+.planos_button {
+  --color: #99CFD1;
+  font-family: inherit;
+  display: inline-block;
+  width: 8em;
+  height: 2.6em;
+  line-height: 2.5em;
+  margin: 10px;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  border: 2px solid var(--color);
+  transition: color 0.5s;
+  z-index: 1;
+  font-size: 16px;
+  border-radius: 25px;
+  font-weight: 500;
+  color: #fff;
+  background-color: #2F495E;
+}
+
+.planos_button:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  background: var(--color);
+  height: 150px;
+  width: 200px;
+  border-radius: 50%;
+}
+
+.planos_button a:link {
+    color: inherit;
+}
+
+.planos_button a:visited {
+    color: inherit;
+}
+
+.planos_button:hover, a:hover {
+  color: #fff;
+}
+
+.planos_button:before {
+  top: 100%;
+  left: 100%;
+  transition: all 0.7s;
+}
+
+.planos_button:hover:before {
+  top: -30px;
+  left: -30px;
+}
+
+.planos_button:active:before {
+  background: #2F495E;
+  transition: background 0s;
+}
+
